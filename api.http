@@ -1,0 +1,41 @@
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+    "name": "Iury Gabriel",
+    "email": "princemods4@gmail.com",
+    "password": "123456"
+}
+
+
+###
+
+GET http://localhost:3333/users
+
+###
+
+GET http://localhost:3333/users/3
+
+###
+
+PUT http://localhost:3333/users/1
+Content-Type: application/json
+
+{
+    "name": "Iury Gabriel",
+    "email": "thomas1@gmail.com"
+}
+
+###
+
+DELETE http://localhost:3333/users/4
+
+###
+
+POST http://localhost:3333/login
+Content-Type: application/json
+
+{
+    "email": "princemods3@gmail.com",
+    "password": "123456"
+}
